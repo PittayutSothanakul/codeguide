@@ -6,10 +6,10 @@ Duplicate code is a computer programming term for a sequence of source code that
  
 	-Example
 
-		public class Student {
+		public class Student{
 			String name;
 			int age;
-			public String toString() {
+			public String toString(){
 				name = "panther";
 				age = 18;
 				return "Name : " + name + "\nage : " + age;
@@ -17,10 +17,9 @@ Duplicate code is a computer programming term for a sequence of source code that
 		}
 
 	
-
 	-You can write
  
-		public class Student {
+		public class Student{
 			String name = "panther";
 			int age = 18; 
 			public String toString(){
